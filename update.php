@@ -1,5 +1,5 @@
 <?php
-  include 'connect.php';
+  include 'database.php';
   $id=$_GET['updateid'];
   $sql="Select * from `crud` where id=$id";
   $result = mysqli_query($con, $sql);

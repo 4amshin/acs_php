@@ -1,5 +1,5 @@
 <?php
-    include 'connect.php';
+    include 'database.php';
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +25,7 @@
                     <th scope="col">No</th>
                     <th scope="col">Nama</th>
                     <th scope="col">NIM</th>
-                    <th scope="col">Operation</th>
+                    <th scope="col">Operasi</th>
                 </tr>
             </thead>
             <tbody>

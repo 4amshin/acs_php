@@ -1,5 +1,5 @@
 <?php
-  include 'connect.php';
+  include 'database.php';
   if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $nim = $_POST['nim'];
